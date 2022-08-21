@@ -1,0 +1,48 @@
+@@charset "UTF-8";
+@@import "link rel="stylesheet" href="style.css";
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #001;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  color: #ffg;
+  text-align: center;
+}
+
+h1{
+  border-bottom: 1px solid #fff;
+}
+
+.container{
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+input[type="button"]{
+  background-color: green;
+  border-radius: 5px;
+  border:1px solid #001;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 10px;
+}
